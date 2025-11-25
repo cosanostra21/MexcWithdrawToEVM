@@ -1,0 +1,12 @@
+# Dependencies
+/node_modules
+
+# Environment
+.env
+.DS_Store
+
+# Build output
+/dist
+
+# Processed Wallets (can be ignored)
+src/exchange/evmProcessed.txt
