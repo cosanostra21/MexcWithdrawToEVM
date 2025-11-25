@@ -1,0 +1,25 @@
+{
+  "name": "mexc-withdrawal-bot",
+  "version": "1.0.0",
+  "description": "Automated ETH withdrawal from MEXC to multiple EVM addresses (Optimism/Arbitrum).",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc",
+    "serve": "node dist/main.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "ccxt": "^4.2.82",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
